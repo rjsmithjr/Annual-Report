@@ -1,0 +1,434 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Annual Report 2015</title>
+		<style type="text/css">
+		
+			body {
+				background: #222;
+				margin: 0;
+			}
+			.thumbnails img {
+				height: 80px;
+				border: 4px solid #555;
+				padding: 1px;
+				margin: 0 10px 10px 0;
+			}
+
+			.thumbnails img:hover {
+				border: 4px solid #fbb033;
+				cursor:pointer;
+			}
+
+			.preview img {
+				border: 4px solid #444;
+				padding: 1px;
+				width: 800px;
+			}
+			
+		</style>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" href="favicon.png" />
+		
+		
+	<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar', 'corechart']});
+      google.charts.setOnLoadCallback(drawChart1);
+	  google.charts.setOnLoadCallback(drawChart2);
+	  google.charts.setOnLoadCallback(drawChart3);
+	  google.charts.setOnLoadCallback(drawChart4);
+	  
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Donations', 'Retreats', 'Other'],
+          ['2012', 160000, 289000, 50000],
+          ['2013', 161000, 366000, 43000],
+          ['2014', 350000, 398000, 42000],
+          ['2015', 273000, 456000, 41000]
+        ]);
+
+        var options = {
+			legend: 'none',
+			height: '300%',
+			colors: ['#4CFC92', '#FBB033', '#7A15C8']
+        };
+		
+        var chart = new google.charts.Bar(document.getElementById('chart1'));
+
+        chart.draw(data, options);
+      }
+	  
+	   function drawChart2() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Private Retreat', 'FPMT Retreat', 'Facility Rental'],
+          ['2012', 956, 1479, 1482],
+          ['2013', 1319, 2039, 985],
+          ['2014', 1382, 2085, 1057],
+          ['2015', 1286, 1990, 1134]
+        ]);
+
+        var options = {
+			legend: 'none',
+			height: '250%',
+			colors: ['#4CFC92', '#FBB033', '#7A15C8']
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('chart2'));
+
+        chart.draw(data, options);
+      }
+	  
+	  function drawChart3() {
+        var data = google.visualization.arrayToDataTable([
+          ['Source', 'Amount'],
+          ['Donations', 271000],
+          ['Retreat Income', 456000],
+          ['Other', 41000]
+        ]);
+
+        var options = {
+			height: '250%',
+			colors: ['#4CFC92', '#FBB033', '#7A15C8']
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chart3'));
+
+        chart.draw(data, options);
+      }
+	  
+	  function drawChart4() {
+        var data = google.visualization.arrayToDataTable([
+          ['Source', 'Amount'],
+          ['Programs', 65000],
+          ['Fundraising', 7200],
+          ['G&A', 225000],
+		  ['Personnel', 290000],
+		  ['Other', 6000],
+        ]);
+
+        var options = {
+			height: '250%',
+			colors: ['#7A15C8', '#15C8C2', '#4CFC92', '#FBB033', '#958B5A']
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chart4'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<nav id="nav">
+					<ul>
+						<li style="display:none;"><a href="#one">Home</a></li>
+						<li><a href="#two">Intro<span class="extra">duction</span></a></li>
+						<li><a href="#three"><span class="extra">Our New </span>Resident Teacher</a></li>
+						<li><a href="#four"><span class="extra">Wise Heart </span>Youth Program</a></li>
+						<li><a href="#five">Prayer Wheel</a></li>
+						<li><a href="#six">Financials</a></li>
+						<li><a href="#seven">Legacy Circle</a></li>
+						<li style="display:none;"><a href="#contact">Legacy Circle</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Reel -->
+					<div class="reel">
+
+						<!-- Intro -->
+							<article id="one" class="slide style1 center">
+								<img src="images/stairs3.jpg" alt="" data-position="30% 50%" />
+								<div class="inner">
+									<header>
+									<img src="images/LogoWide.png" style="width:80%;padding-bottom: .5em;" alt="logo"/>
+										<h2 style="font-size:3.5em;">Annual Report 2015:</h2>
+										<h1>"Building Bridges from Heart to Heart"</h1>
+										<br>
+									</header>
+									<ul class="actions">
+										<li><a href="#two" class="button next">See what excited us in 2015</a></li>
+									</ul>
+								</div>
+							</article>
+
+						<!-- One -->
+							<article id="two" class="slide style2 left">
+								<img src="images/Fabienne3.jpg" alt="" data-position="right" />
+								<div class="inner">
+								<img src="images/StupaIcon.png" alt="Stupa Icon" style="width:17%;"/>
+								<h2>DEAR FRIENDS, DEAR SUPPORTERS,</h2>
+								<p>We appreciate your support. You’re our partner in helping people build bridges of true connection into the heart of their Buddha Nature. We’re excited to show you what your support makes possible. His Holiness the Dalai Lama has been a tireless advocate of building bridges. He brings together multitudes of arenas, encompassing of Tibetan Buddhism, interfaith, Ecumenical Buddhism, secular spirituality and science. We’ve been following in his footsteps by offering an ever widening range of retreats to support a variety of needs. Join me on this journey through 2015.</p>
+								<p>This is where our journey will take us:</p>
+								<ol>
+									<li>The vision of our dynamic new resident teacher: Venerable Tenzin Chogkyi </li>
+									<li>A new umbrella brand, Wise Heart, to support the success of our Youth Programs</li>
+									<li>An introduction to our next building project: The Prayer Wheel</li>
+									<li>An introduction to a stellar board of directors</li>
+									<li>An overview of our finances</li>
+									<li>Building a Legacy Circle for future generations</li>
+								</ol>
+									<img src="images/Signature_white.png" alt="" data-position="30% 50%" style="max-width: 30%;"/>
+									<h5>-Fabienne Pradelle, Executive Director</h5>
+									<br>
+								<ul class="actions">
+									<li><a href="#three" class="button next">Let's Meet Our New Resident Teacher</a></li>
+								</ul>
+								</div>
+							</article>
+
+						<!-- Two -->
+							<article id="three" class="slide style2 left">
+								<img src="images/VTCBanner2.jpg" alt="" data-position="left" />
+								<div class="inner">
+								<div class="DirectorBox">
+									<img src="images/StupaIcon.png" alt="Stupa Icon" class="stupa"/>
+									<div>
+										In 2015, Venerable Tenzin Chogkyi returned to Vajrapani Institute this time as our resident teacher - her passion for translating the dharma to a wide range of audiences makes her an ideal partner.
+									</div>
+								</div>
+									<h2>Planting the Seeds of Enlightenment</h2>
+									<h4>By Venerable Tenzin Chogkyi</h4>
+									<br>
+									<img src="images/VTC.jpg" class="image fit left" alt="Venerable Tenzin Chogkyi" />
+									<p>Just over a year ago, when Gendun Drubpa Buddhist Center in Canada requested me to continue as resident teacher as my initial three-year commitment was finishing, Lama Zopa Rinpoche decided that, instead of that option or any of the others available to me at the time, moving to Vajrapani Institute as resident teacher was the most beneficial. At the time, I was a little surprised, as there are so many teachers in the Bay Area and I was used to being placed in FPMT centers in remote areas with no other access to Dharma teachings. But as I discussed the vision of my tenure at Vajrapani Institute with Fabienne, Rinpoche’s decision began to make sense.</p>
+									<p>This is my third time at Vajrapani Institute. I first came to the land in April of 1992 in the capacity of co-director, and again in 2009 as resident teacher before transitioning to touring teacher for the FPMT for a number of years. This time, not only is my vision quite different than it has been, but I feel the vision of Vajrapani has also transformed, and it feels like a great match.</p>
+									<p>When I first started teaching, it was just after emerging from many years of long retreat. At that point, I was excited to present the very traditional Buddhist teachings – “Enlightenment or bust!” In the intervening years, as I gain more experience as a teacher, I realized that anything I can possibly teach someone that will help them to suffer less is “Good enough, dear,” as Lama Yeshe would say.</p>
+									<p>Most students these days don’t come to our centers to learn the path to enlightenment. Most come because they are in emotional pain and turmoil, or can’t seem to find happiness wherever they look, or just feel a deep sense of meaninglessness about their lives that nothing seems to assuage. In presenting beginners’ programs, such as introductory meditation courses, and secular programs, like the Cultivating Emotional Balance program, I’ve seen people’s minds (and faces!) transform as they learn tools for helping them deal with their out-of-control emotions, start to investigate strategies for making their lives more meaningful, and develop their compassion and loving-kindness. And even, sometimes, awaken a glimmering of an interest in the higher goals of Buddhism, such as liberation and enlightenment!</p>
+									<p>I see the courses that Vajrapani Institute is beginning to develop and offer on a regular basis, such as the Compassionate Conversations interfaith retreat, Cultivating Emotional Balance, Mindfulness-Based Stress Reduction, and Compassion Cultivation Training, as being an important bridge, enabling students to engage with ideas drawn from Buddhism in a way that is practical and gives them the much-needed tools for dealing with the struggles they are experiencing. And these programs are bridging in the sense that they also can, and often do, lead to an interest in more profound spiritual goals. I’ve seen many new students attend one of these programs and then, because of the interest that has been awakened and due to their familiarity with Vajrapani Institute, continue their studies with the more traditional Buddhist offerings such as the annual lamrim retreats, the shiné retreats, and even tantric teachings.</p>
+									<p>Because of this, Lama Zopa’s advice now makes perfect sense. I feel honored and excited to be part of the manifestation of this vision to serve beings in all these diverse ways – isn’t this what the Buddha was talking about when he emphasized “skillful means”?</p>
+
+									<ul class="actions">
+										<li><a href="#four" class="button next">Next we'll learn about our expanding youth program</a></li>
+									</ul>
+									<br>
+								</div>
+							</article>
+
+						<!-- Three -->
+							<article id="four" class="slide style2 center">
+								<img src="images/pic01.jpg" alt="" data-position="bottom" />
+								<div class="inner">
+								<div class="DirectorBox">
+									<img src="images/StupaIcon.png" alt="Stupa Icon" class="stupa"/>
+									<div style="padding:1em">
+										We launched a new umbrella brand, Wise Heart, to support our thriving youth programs and give them a separate voice.
+										Wise Heart is about helping children, teens and young adults find the good within themselves and create meaning in their lives.
+									</div>
+								</div>
+								<img src="images/WiseHeartTeamShort.jpg" alt="Lama Zopa with Wise Heart Team" style="width: 100%;"/>
+									<h2>The Power of Teen Camp</h2>
+									<h3>By Julia Hengst, LMFT</h3>
+									<p>The 2016 Vajrapani Teen Camp will be its eighth official year. However, it started two years before that, with “teen tracks” taking place during Family Camp. Within this ten-year span, huge shifts in technology and access to drugs/alcohol have created an extremely challenging environment for teenagers – an environment so different that many adults cannot even comprehend it. If you do a search for the top problems facing teenagers today, they include: cyber bullying, drugs, body image issues, eating disorders (on the rise among boys), technology issues, depression, teen sex/relationships, social anxiety, obesity, academic pressures and lack of motivation. 
+								    </p>
+									<p>As a Marriage Family Therapist who specializes in teenagers and young adults, I can say without hesitation the number one issue raised by teens – whether in counseling or in group teen events – is self-hatred. Self-hatred is epidemic, and is paradoxically tied to the high levels of interaction teens can have with each other through various forms of technology. Before their brains have reached adult levels of growth and maturity (now scientifically proven to be around age 25!), teenagers live as if on stage in front of a panel of virtual judges everywhere they go and in everything they do. While the internet is a blessing in many ways, bringing connection and integration, its ability to give bullies the power to express violence, misogyny and discrimination in all its forms (homophobia, racism, classism, etc.) is a curse. 
+								   	</p>
+									<p>Young people today have higher levels of self-consciousness and self-criticism because they have so many social platforms that can mirror negativity back towards them. They need help. They need to know there are other teens who struggle with similar thoughts of depression, loneliness, anxiety, shame and fear. They need to know it is possible to create community and build trust, that there are other teens who genuinely want to connect with each other in deeper, more vulnerable ways. One teenager told me she is “surprised there aren’t more school shootings” and “everyone goes through an eating disorder phase.” This is the new norm, and we want to counteract this horrifying “norm” to help kids know there is positivity inside themselves, inside each other and that they can create meaning and purpose in their lives. 
+								    </p>
+									<p>Buddhism says we are stuck in cyclic existence, and as Dr. Robert Thurman puts it, we are all infinitely inter-entangled. Once we realize our fates are connected with those of everyone around us, and that it is in our best interest to be more compassionate to all living beings, we can begin weaving consciousness with others rather than suffering. Teen Camp provides the space where kids can learn how to create happiness rather than suffering. They can learn which actions of body, speech and mind become seeds for connection, joy, equanimity, and which ones will cause future misery.  After asking me about teenagers recently at a lunch at Vajrapani, Lama Zopa Rinpoche told me that karma is so powerful, if teenagers could learn how to make one offering in the morning or at night to all the Buddhas and dedicate the merit for the benefit of all beings, it is unbelievable how much good karma it creates. Then parents, parents who worry so much about their teens and have no idea how to help them, won’t feel so powerless in knowing how to help their kids. Rinpoche said if teens learn some techniques for creating good karma, parents won’t feel so worried all the time. 
+								   	</p>
+									<p>Teen Camp empowers teens by showing them how to connect to bigger sources of positive power during a time when negativity permeates the airwaves (literally, psychically). Yes, we help teens develop mindfulness, but we go further in that we help them use that mindfulness proactively: to create merit, to see their own karmic patterns, and to discern what is needed to dissolve the negative karmic patterns and grow the positive ones.  It is a tall order, but as one of my mentor’s told me, the world is a calamity right now, and “we need to get as many people through the fence as we can!” In the west, we tend to think we can just “will” things into being with magical thinking and intellectualizing. This is a mistake. We must create the karma for positive future outcomes. Teen Camp – and all the camps at Vajrapani – help young people learn how to do just that. 
+									</p>
+									<ul class="actions">
+										<li><a href="#five" class="button next">Find out what our next big building project is</a></li>
+									</ul>
+									<br>
+								</div>
+							</article>
+							
+						<!-- Four -->
+							<article id="five" class="slide style2 center">
+								<img src="images/pattern.png" alt="" data-position="bottom" />
+								<div class="inner">
+								<div class="DirectorBox">
+									<img src="images/StupaIcon.png" alt="Stupa Icon" class="stupa"/>
+
+									<div style="padding:1em">
+										5 trillion Mmani mantras: this is Lama Zopa Rinpoche’s vision for our next big building project - a large prayer wheel to house the mantras. A great team has formed around the project, bringing together an architect, landscape designer, contractor and artisans. Everyone on the team is all passionate about it. The capital campaign will launch soon and we hope to start building this year. 
+									</div>
+								</div>
+								<ul class="actions">
+									<li><a href="#six" class="button next">Now for the boring stuff...</a></li>
+								</ul>
+									<br>
+								</div>
+							</article>
+							
+						<!-- Financials -->
+							
+							<article id="six" class="slide style1 center">
+								<img src="images/pattern.png" alt="" data-position="center" />
+								
+								<div class="inner">
+									<div class="DirectorBox">
+										<img src="images/StupaIcon.png" alt="Stupa Icon" class="stupa"/>
+										<div style="padding:1em;">
+											Ensuring our future is stable has been our focus for some years now, and 2015 has placed a few more bricks on this foundation. Diana Weddigen, CPA and board member, talks us through the financials for the year.
+										</div>
+									</div>
+									<div class="content align-left">
+
+										<section>
+											<h2 style="text-align:center;">Vajrapani Institute Finances: 2015</h2>
+											<h4 style="text-align:center;">By Diana Weddigen</h4>
+											<br>
+											<ul class="actions" style="text-align:center;">
+												<li><a href="VPIFinancials2015.xlsx" class="button small
+												icon fa-download" download>Download financial Details PDF</a></li>
+											</ul>
+											<div style="font-size:.75em;">
+											<p>
+												The Executive Director is responsible for managing and supervising the finances of Vajrapani Institute, as directed by its Board of Directors. 
+											</p>
+											<p>
+												Vajrapani Institute receives support and revenue primarily through donor contributions and retreat revenue. Retreat revenue consists of FPMT retreats, individual retreats, and group facility rentals. For the year ended December 31, 2015, total support and revenue was $769,000, consisting of contribution support of $273,000, retreat revenue of $456,000, and other support of $41,000. 
+											</p>
+											<p>
+												For the year ended December 31, 2015, total expenses were $595,000 (excluding depreciation expense of $71,000), resulting in net income before depreciation of $174,000.  
+											</p>
+											<p>
+												The 2015 contribution support includes $28,000 in donor restricted contributions to be used primarily for the prayer wheel and the Lama Yeshe statue.
+											</p>
+											</div>
+
+
+											<h4 style="padding-bottom: 1.5em;">Revenue Over Time</h4>
+											<div id="chart1"></div>
+											
+											<h4 style="padding-bottom: 1.5em;padding-top: 1.5em;">Retreat Attendance Over Time</h4>
+											<div id="chart2"></div>
+											
+											
+											<h4>2015 Revenue</h4>
+											<div id="chart3"></div>
+											
+											<h4>2015 Expenses</h4>
+											<div id="chart4"></div>
+									</div>
+								
+										<ul class="actions">
+											<li><a href="detail.html" class="button special">See greater detail</a></li>
+											<li><a href="#seven" class="button next">Take a look at our future</a></li>
+										</ul>
+										</section>
+										<br><br>
+									</article>
+									
+							<!-- Four -->
+						
+							<article id="seven" class="slide style1 center">
+								<img src="images/legacy_circle.png" alt="" data-position="top" />
+								<div class="inner">
+									<div class="DirectorBox">
+										<img src="images/StupaIcon.png" alt="Stupa Icon" class="stupa" />
+										<div style="padding:1em;">
+											Our Legacy Circle is strengthening. As they hear about the initiative, community members are stepping forward to join the Legacy effort, whether it’s putting Vajrapani Institute in their will, donating to the Legacy Fund or making prayers for the long term stability of the Institute. Hear from two of those members.									
+										</div>
+									</div>
+								<div>
+									<div style="background:white;padding:2em 0 1em 0;"><img src="images/LegacyLogo.png" alt="Legacy Circle Logo" style="width:50%;" /></div>
+									<br><br>
+									<div>
+										<img src="images/Legacy/Will.jpg" class="image fit left"/>
+										<h2>Meet Will:</h2>
+										“I’m an aging gay man living in San Francisco and semi-retired from library work as a cataloger. Books have always been a passion for me. I have a long-term interest in the Dharma. I first came to Vajrapani Institute in the mid Nineties, did the work-study program, took Refuge and received teaching from precious teachers. When I can, I come back to my “spiritual home”. I feel that the land there is Lama Yeshe’s Holy Body. It is important that we keep his legacy going, so that all beings may benefit."
+									</div>
+
+									<br><br>
+									<hr>
+									<br><br>
+									<div>
+										<img src="images/Legacy/Shankha.jpeg" width="50%" class="image fit left"/>
+										<h2>Meet Shankha:</h2>
+										"Vajrapani Institute is my refuge, both physically and spiritually. This is where I met my teachers who turned my mind towards the Dharma. This is where my children attended Family Camp since they were five. Vajrapani Institute and its community have been an integral part of my life and it has given me so much. As a result I feel it's my responsibility to support it so that it can continue to benefit others coming after me. My legacy gift is to ensure that Vajrapani has a strong and financially secure future for the centuries to come.  It's the least I can do. If at the time of death my wealth is of no use to me, why not let it be of use to others, and for such a great cause?"
+									</div>
+									<br>
+									<ul class="actions vertical">
+										<li><a href="https://hollyh.wufoo.com/forms/rkk1pnr0jsbnol/" class="button special">Make a Legacy Circle Pledge Today</a></li>
+										<br>
+										<li><a href="#contact" class="button next">filler next</a></li>
+									</ul>
+									<br>
+								</div>
+							</article>
+
+						<!-- Contact Us -->
+							<article id="contact" class="slide style2 center">
+								<img src="images/pattern.png" alt="" data-position="30% 50%" />
+								<div class="inner">
+									<h1>Keep in Touch!</h1>
+									<br>
+									<div class="content">
+										<form method="post" action="#">
+												<div class="field half first">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="field half">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="field">
+													<div class="select-wrapper">
+														<select name="demo-category" id="demo-category">
+															<option value="">- Category -</option>
+															<option value="1">Manufacturing</option>
+															<option value="1">Shipping</option>
+															<option value="1">Administration</option>
+															<option value="1">Human Resources</option>
+														</select>
+													</div>
+												</div>
+												<div class="field half first">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy</label>
+												</div>
+												<div class="field half">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">Not a robot</label>
+												</div>
+												<div class="field">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="g-recaptcha" data-sitekey="6LcGch0TAAAAAHw8ketANYPddA5a2lGWBfV9GZpW"></div>
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="special" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</form>
+										</div>
+
+										<!--End mc_embed_signup-->
+									</div>
+									<ul class="icons">
+										<li><a href="https://twitter.com/vajrapaniorg" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/Vajrapani/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="mailto:office@vajrapani.org?Subject=Annual%20Report%202015" target="_top" class="icon fa-envelope"><span class="label">Email</span></a></li>
+									</ul>
+								</div>
+							</article>
+							
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			
+			
+	</body>
+</html>
